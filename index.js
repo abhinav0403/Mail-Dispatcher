@@ -53,10 +53,10 @@ upload.addEventListener('change', () => {
 function sendEmail() {
     Email.send({
         Host: "smtp.elasticemail.com",
-        Username: "agarwalabhinav941@gmail.com", 
-        Password: "Abhinav@123",  
-        To: "agarwalabhinav941@gmail.com",
-        From: "agarwalabhinav941@gmail.com",
+        Username: "", 
+        Password: "",  
+        To: "",
+        From: "",
         Subject: document.querySelector('#subject').value,
         Body: document.getElementById('msg').value
     }).then(
